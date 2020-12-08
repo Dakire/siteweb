@@ -31,8 +31,8 @@ h2{
 .imghome{
   background: no-repeat url("IMG/Banniere.jpg");
   background-attachment:fixed;
-  height: 1000px;
-  background-position: center;
+ /* height: 1000px;*/
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
