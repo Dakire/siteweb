@@ -1,0 +1,74 @@
+body{
+
+font-family: 'B612', sans-serif;
+background-color: transparent;
+
+
+}
+
+h1{
+
+    font-size: 400%;
+    border: thick double grey;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    position: relative;
+
+
+
+}
+h2{
+
+  font-size:300%;
+}
+
+
+  p1{
+      color:#ff0000 ; /* couleur de la police */
+      background-color:transparent ; /* couleur du fond */
+  }
+
+.imghome{
+  background: no-repeat url("IMG/Banniere.jpg");
+  background-attachment:fixed;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sommaire{
+      color: white ; /* couleur de la police */
+      padding-left: 3%;
+      font-size: 150%;
+
+}
+
+.menu{
+
+  color: black ; /* couleur de la police */
+  font-size: 150%;
+  list-style-type: none;
+
+
+}
+
+a:link {
+ color: yellow;
+ text-decoration: underline;
+ }
+
+a:hover {
+ color: #0A1128;
+ text-decoration: none;
+}
+a:active, a:focus {
+ color: grey;
+}
+
+  p3{
+      color:#000000 ; /* couleur de la police */
+      text-align: center;
+      list-style-position: inside;
+  }
