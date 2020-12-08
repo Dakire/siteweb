@@ -31,7 +31,7 @@ h2{
 .imghome{
   background: no-repeat url("IMG/Banniere.jpg");
   background-attachment:fixed;
- /* height: 1000px;*/
+  height: 1000px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,14 +45,6 @@ h2{
 
 }
 
-.menu{
-
-  color: black ; /* couleur de la police */
-  font-size: 150%;
-  list-style-type: none;
-
-
-}
 
 a:link {
  color: yellow;
@@ -72,3 +64,68 @@ a:active, a:focus {
       text-align: center;
       list-style-position: inside;
   }
+
+.background{
+
+  background-color: grey;
+}
+#menu {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+  position: fixed ;
+  right: 0 ;
+  top: 5%;
+  width:8em;
+  margin-top: -2.5em;
+}
+#menu ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu li {
+   background-color:#729EBF;
+   background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+   border-radius: 6px;
+   margin-bottom:2px;
+   border:solid 1px black;
+}
+#menu li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menu a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+#menu ul li a, #menu li:hover li a {
+  font-size:1em
+}
+#menu li:hover {
+   background: #729EBF
+}
+#menu li li:hover {
+   background: #999;
+}
+#menu ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu li:hover li {
+  max-height: 15em;
+}
